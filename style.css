@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 90%;
+    padding: 15px 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-nav {
+    display: flex;
+    list-style: none;
+    margin-top: 14px
+}
+
+.main-nav li {
+    margin-left: 36px;
+    color: #435;
+}
+
+.main-nav li:hover {
+    color: #0ba
+}
+
+footer {
+    width: 100%;
+    background-color: #444;
+    text-align: center;
+    padding: 26px 0;
+    color: #fff;
+}
