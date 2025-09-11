@@ -4,16 +4,18 @@
     box-sizing: border-box;
 }
 
+#top {
+    min-height: 100vh;
+    background-image: url(./img/cafemain.jpg);
+    background-size: cover;
+}
+
 header {
     width: 90%;
     padding: 15px 0;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-}
-
-footer {
-    width: 100%;
 }
 
 a {
@@ -43,8 +45,26 @@ a {
 .main-visual p {
     font-size: 1.2rem;
     margin: 10px 0 40px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
+.main-title {
+    font-size: 4rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+
+.btn {
+    font-size: 1.2rem;
+    background-color: #0ba;
+    color: #fff;
+    border-radius: 30px;
+    padding: 20px 50px;
+}
+
+.btn:hover {
+    background-color: #0090dd;
+}
 
 footer {
     width: 100%;
