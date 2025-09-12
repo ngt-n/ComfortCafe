@@ -22,6 +22,11 @@ a {
     text-decoration: none;
 }
 
+.heading a {
+    font-family:'Times New Roman', Times, serif;
+    color: #1b0704;
+}
+
 .main-nav {
     display: flex;
     list-style: none;
@@ -33,13 +38,19 @@ a {
     color: #435;
 }
 
+.main-nav li a {
+    margin-left: 36px;
+    color: #1b0704;
+}
+
 .main-nav li:hover {
-    color: #0ba
+    color: #0ba;
 }
 
 .main-visual {
     text-align: center;
-    margin-top: 20%
+    margin-top: 20%;
+    color: #1b0704;
 }
 
 .main-visual p {
